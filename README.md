@@ -95,9 +95,6 @@ PCL-CE-Mod.exe  --DOTNET_STARTUP_HOOKS-->  patch\PCLCeMod.dll
 .\build.ps1 -DeployTo 'D:\Games\PCL-CE-Mod'  # 构建并部署
 ```
 
-脚本会自动挑出机器上带 10.x SDK 的 `dotnet`（例如同时装了 9.x 与 10.x 时不会选错）；
-也可以用 `-Dotnet 'C:\path\dotnet.exe'` 显式指定。
-
 首次部署会自动生成默认 `pcl-ce-mod.json`，已存在则保留。
 
 ## 已知限制
@@ -110,3 +107,12 @@ PCL-CE-Mod.exe  --DOTNET_STARTUP_HOOKS-->  patch\PCLCeMod.dll
 ## 免责声明
 
 本项目仅供学习与个人使用。绕过地区检测可能违反 PCL CE 或其依赖服务的使用条款，是否使用、产生何种后果由使用者自行判断与承担。本项目不包含、不修改任何 PCL CE 的可执行文件或游戏文件。
+
+
+
+主题个性化被 [PCL/LICENCE at main · Meloong-Git/PCL](https://github.com/Meloong-Git/PCL/blob/main/LICENCE) 限制为 `软件在 Windows 系统上运行时，不应有与 PCL 的赞助解锁功能类似的功能或表现。`
+
+赞助的快照版已经停更。不再被维护。版本号滚到了2.99
+
+想要主题个性化就只能这样了。。。或许
+
