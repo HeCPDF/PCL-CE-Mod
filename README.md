@@ -95,6 +95,9 @@ PCL-CE-Mod.exe  --DOTNET_STARTUP_HOOKS-->  patch\PCLCeMod.dll
 .\build.ps1 -DeployTo 'D:\Games\PCL-CE-Mod'  # 构建并部署
 ```
 
+脚本会自动挑出机器上带 10.x SDK 的 `dotnet`（例如同时装了 9.x 与 10.x 时不会选错）；
+也可以用 `-Dotnet 'C:\path\dotnet.exe'` 显式指定。
+
 首次部署会自动生成默认 `pcl-ce-mod.json`，已存在则保留。
 
 ## 已知限制
