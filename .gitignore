@@ -1,0 +1,24 @@
+# 构建产物与本地运行时数据，不进仓库
+bin/
+obj/
+publish/
+dist/
+
+# 二进制（由构建脚本生成，不提交）
+*.exe
+*.dll
+*.pdb
+*.lib
+*.exp
+
+# 本地配置与日志
+pcl-ce-mod.json
+pcl-ce-mod.json.bak
+logs/
+*.log
+
+# IDE
+.vs/
+.idea/
+*.user
+*.suo

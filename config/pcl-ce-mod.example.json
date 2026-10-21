@@ -1,0 +1,20 @@
+{
+  "cePath": "",
+  "ceSearchDirectories": [
+    ".",
+    "..\\PCL-CE"
+  ],
+  "features": {
+    "personalization": true,
+    "regionBypass": true
+  },
+  "personalization": {
+    "themeKey": "龙猫蓝",
+    "hue": 255,
+    "lightAdjust": 0,
+    "chromaAdjust": -0.2
+  },
+  "launcher": {
+    "extraArgs": []
+  }
+}
